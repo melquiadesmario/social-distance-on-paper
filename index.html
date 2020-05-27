@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Distance on Paper</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Social Distance on Paper</h1>
+        <div class="container-action-field">
+            <label for="action-field">Action Field</label>
+            <input id="action-field" type="number">
+            <button class="btn-ok" onclick="actionField()">OK</button>
+        </div>
+        <canvas id="canvas" width="1000" height="500"></canvas>
+        <div class="container-button">
+            <button class="btn color-clear" onclick="clearScreen()">Clear Screen</button>
+            <button class="btn color-draw" onclick="draw()">Draw Screen</button>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
